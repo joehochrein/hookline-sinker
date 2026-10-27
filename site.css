@@ -1,0 +1,26 @@
+/* Shared by every page. Same look as Nooked's original support pages. */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  max-width: 640px; margin: 0 auto; padding: 40px 20px;
+  line-height: 1.6; color: #1d1d1f; background: #faf7f2;
+}
+h1 { font-size: 2rem; margin-bottom: .2em; }
+h2 { margin-top: 1.8em; }
+a { color: #0a64c8; }
+footer { margin-top: 3em; font-size: .9rem; color: #6e6e73; }
+footer a { color: inherit; }
+
+/* Studio home */
+.logo { display: block; width: 260px; max-width: 70%; margin: 0 auto 8px; }
+.tagline { text-align: center; color: #6e6e73; margin-top: 0; }
+.games { list-style: none; padding: 0; margin: 2em 0 0; }
+.games li {
+  display: flex; gap: 16px; align-items: center;
+  padding: 16px; margin-bottom: 12px; border-radius: 16px; background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .08);
+}
+.games img { width: 72px; height: 72px; border-radius: 16px; flex: none; }
+.games h2 { margin: 0; font-size: 1.25rem; }
+.games p { margin: 2px 0 6px; }
+.games .links a { margin-right: 14px; white-space: nowrap; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
